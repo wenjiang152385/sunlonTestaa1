@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'oraro'
+            keyPassword '123456'
+            storeFile file('/home/trojan/keystore/oraro.jks')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 19
+    buildToolsVersion "19.1"
+    defaultConfig {
+        applicationId "com.oraro.sunlon.sunlontesta"
+        minSdkVersion 16
+        targetSdkVersion 19
+        versionCode 10266
+        versionName "1.2.66"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            android.applicationVariants.all{variant ->
+                if (variant.buildType.name.equals('release')){
+                    variant.outputs.each{output ->
+                        def  outputFile=output.outputFile
+                        if (outputFile!=null && outputFile.name.endsWith('release.apk')){
+                            def fileName="V.${defaultConfig.versionName}_${releaseTime()}.apk"
+                            output.outputFile=new File(
+                                    outputFile.parent,fileName
+                            )
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+    lintOptions {//设置编译的lint开关，程序在buid的时候，会执行lint检查，有任何的错误或者警告提示， 都会终止构建
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile project(':vitamio')
+    compile files('libs/android-async-http-1.4.5.jar')
+    compile 'com.android.support:appcompat-v7:19.1.0'
+    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile files('libs/gson-2.3.1.jar')
+}
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd",TimeZone.getTimeZone("UTC"))
+
+}
+
+

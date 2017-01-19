@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="170dp"
+
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:text="北倚大兴安岭、南临嫩江,"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#FFFFFF"
+        android:text="东有阿伦河,西有音河,"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:text="总占地面积380平方公里,"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="相当于北京西四环以内的总面积,"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:text="耕地面积40万亩。"
+        />
+
+</LinearLayout>
+
+</RelativeLayout>

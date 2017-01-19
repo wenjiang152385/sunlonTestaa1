@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="40dp"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+         android:text="高质量的农产品,种肥选定是关键,"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:text="优秀的环境是基础,现代科技和规范管理是保障,"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:text="高标准仓储和现代加工工艺是支撑,品牌是承载。"
+        />
+
+
+
+</LinearLayout>

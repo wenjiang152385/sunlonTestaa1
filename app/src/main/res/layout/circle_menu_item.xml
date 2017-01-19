@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+
+    <TextView
+        android:id="@id/id_circle_menu_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:drawableTop="@drawable/appicon"
+        android:text="保险"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:textSize="14.0dip" />
+
+</LinearLayout>

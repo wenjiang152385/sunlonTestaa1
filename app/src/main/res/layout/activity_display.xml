@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/display_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdaotian"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:context="com.oraro.sunlon.activity.DisplayActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/fl_video"
+        android:visibility="visible"
+        android:layout_height="match_parent">
+    <com.oraro.sunlon.view.FullScreenVideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        />
+       <include android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           layout="@layout/activity_jump"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF" />
+      <include android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/activity_frame" />
+</LinearLayout>

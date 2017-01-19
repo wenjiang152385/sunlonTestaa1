@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+     <com.oraro.sunlon.view.CycleViewPager
+         android:id="@+id/viewPager_product"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:padding="10dp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="@drawable/left"
+        android:layout_marginLeft="23dp"
+        android:id="@+id/iv_product1"
+        android:layout_gravity="left|center"
+        />
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="@drawable/right"
+        android:id="@+id/iv_product2"
+        android:layout_marginRight="23dp"
+        android:layout_gravity="right|center"
+        />
+    </FrameLayout>
+
+</RelativeLayout>

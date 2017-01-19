@@ -1,0 +1,160 @@
+<markList>
+    　　
+    <mark id="1610000110">
+        <type>0</type>
+        　　　　
+        <xValue>135</xValue>
+        　　　　
+        <yValue>750</yValue>
+        　　
+    </mark>
+    　　<mark id="1610000109">
+       <type>14</type>
+        <xValue>100</xValue>
+        <yValue>740</yValue>
+      </mark>
+    <mark id="1610000111">
+        <type>1</type>
+
+        <xValue>245</xValue>
+        　　　　
+        <yValue>222</yValue>
+        　　
+    </mark>
+    <mark id="1610000112">
+        <type>15</type>
+
+        <xValue>270</xValue>
+        　　　　
+        <yValue>229</yValue>
+        　　
+    </mark>
+    <!--<mark id="X10000112">-->
+        <!--<type>16</type>-->
+
+        <!--<xValue>296</xValue>-->
+        <!--　　　　-->
+        <!--<yValue>225</yValue>-->
+        <!--　　-->
+    <!--</mark>-->
+    <mark id="X10000110">
+        <type>16</type>
+
+        <xValue>605</xValue>
+        　　　　
+        <yValue>346</yValue>
+        　　
+    </mark>
+
+    <mark id="X10000107">
+        <type>2</type>
+        　　　　
+        <xValue>430</xValue>
+        　　　　
+        <yValue>472</yValue>
+        　　
+    </mark>
+
+    <mark id="1610000105">
+        <type>3</type>
+        　　　　
+        <xValue>420</xValue>
+        　　　　
+        <yValue>518</yValue>
+        　　
+    </mark>
+
+    <mark id="1610000108">
+        <type>4</type>
+        　　　　
+        <xValue>414</xValue>
+        　　　　
+        <yValue>490</yValue>
+        　　
+    </mark>
+
+    <mark id="1610000106">
+        <type>5</type>
+
+        <xValue>430</xValue>
+        　　　　
+        <yValue>494</yValue>
+        　　　　　　
+    </mark>
+
+    <mark id="1610000107">
+        <type>6</type>
+        　　　　
+        <xValue>404</xValue>
+        　　　　
+        <yValue>511</yValue>
+        　　
+    </mark>
+
+    <mark id="1610000101">
+        <type>7</type>
+        　　　　
+        <xValue>360</xValue>
+        　　　　
+        <yValue>500</yValue>
+        　　
+    </mark>
+
+    <mark id="1610000100">
+
+        <type>8</type>　
+        　　　
+        <xValue>370</xValue>
+        　　　　
+        <yValue>510</yValue>
+        　　
+    </mark>
+    　　
+    <mark id="1610000103">
+        <type>9</type>
+        　　　　
+        <xValue>375</xValue>
+        　　　　
+        <yValue>540</yValue>
+        　　
+    </mark>
+
+
+    　　
+    <mark id="1610000102">
+        <type>10</type>
+        　　　　
+        <xValue>365</xValue>
+        　　　　
+        <yValue>565</yValue>
+        　　
+    </mark>
+    　　
+    <mark id="1610000104">
+        <type>11</type>
+
+        <xValue>380</xValue>
+        　　　　
+        <yValue>570</yValue>
+        　　
+    </mark>
+
+    <mark id="X10000102">
+
+        <type>12</type>
+
+        <xValue>650</xValue>
+        　　　　
+        <yValue>370</yValue>
+        　　
+    </mark>
+
+    <mark id="X10000103">
+        <type>13</type>
+        　　　　
+        <xValue>670</xValue>
+        <yValue>465</yValue>
+        　　
+    </mark>
+
+</markList>

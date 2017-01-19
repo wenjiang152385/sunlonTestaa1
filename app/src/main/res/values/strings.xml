@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">首农双河</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loadingVideoa">监控加载中.</string>
+    <string name="loadingVideob">监控加载中..</string>
+    <string name="loadingVideoc">监控加载中...</string>
+    <string name="highDefinition">高清显示：</string>
+
+</resources>
